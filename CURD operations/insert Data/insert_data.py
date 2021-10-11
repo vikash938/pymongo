@@ -15,7 +15,7 @@ data = {"department":"Science",
 #using insert_one to upload data in db
 x = collection.insert_one(data)
 print(x)
-#list_of_data = [{"department":"Commerce",
+list_of_data = [{"department":"Commerce",
                  "students":{
                      "name":"Jam",
                      "class":"B.Com 1st Year",
